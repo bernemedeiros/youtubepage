@@ -1,0 +1,64 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+
+}
+.hamburguer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px
+}
+
+.hamburguerimage {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+input {
+    width: 400px;
+    height: 30px;
+    
+}
+.lupa {
+  position: relative;
+  right: 40px;
+
+}
+
+.novo{
+  position: relative;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.video{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.notificacao {
+    position: relative;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.foto {
+    border-radius: 50px;
+    width: 35px;
+}
+
+
+

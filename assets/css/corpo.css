@@ -1,0 +1,74 @@
+.corpo{
+    display: flex;
+}
+.video {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+    left: 20px;
+}
+.video h4 {
+    margin: 10px 0px;
+}
+.inscritos {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 830px;
+    margin-bottom: 10px;
+}
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 155px;
+}
+.avatar2 {
+    border-radius: 50px;
+    padding: 10px;
+}
+.gostei, .naogostei, .compartilhar, .down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3px;
+   
+}
+.inscreverse {
+    color:white;
+    border-radius: 5px;
+    height: 40px;
+    width: 159px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto {
+    width: 510px;
+    height: 64px;
+    font-size: 10px;
+}
+aside {
+    margin-left: 200px;
+    justify-content: flex-end;
+    width: 388px;
+    margin-right: 0px;
+    margin-top: 16px;
+}
+.videomenor {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.textomenor {
+    width: 300px;
+    height: 64px;
+    font-size: 10px;
+}
